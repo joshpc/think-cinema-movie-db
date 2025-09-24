@@ -1,0 +1,9 @@
+view {
+  movies {
+    id,
+    oldDatabaseId,
+    count(actors),
+    count(credits)
+    [order by oldDatabaseId asc]
+  }
+}

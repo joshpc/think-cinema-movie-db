@@ -1,0 +1,14 @@
+import * as vitest from "vitest";
+import { defineConfig } from "vite";
+import { gadget } from "gadget-server/vite";
+import { remixViteOptions } from "gadget-server/remix";
+import { vitePlugin as remix } from "@remix-run/dev";
+
+export default defineConfig({
+  plugins: [gadget(), remix(remixViteOptions)],
+  clearScreen: false,
+  test: {
+    setupFiles: ["dotenv/config"],
+    mockReset: true,
+  },
+});

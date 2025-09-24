@@ -1,0 +1,6 @@
+view {
+  movies {
+    id
+    [where product.id==null]
+  }
+}
