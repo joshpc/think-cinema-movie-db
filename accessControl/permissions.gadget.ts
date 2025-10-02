@@ -113,6 +113,26 @@ export const permissions: GadgetPermissions = {
     },
     unauthenticated: {
       storageKey: "unauthenticated",
+      models: {
+        actor: {
+          read: true,
+        },
+        credit: {
+          read: true,
+        },
+        movie: {
+          read: true,
+        },
+        person: {
+          read: true,
+        },
+        shopifyProduct: {
+          read: {
+            filter:
+              "accessControl/filters/shopifyProduct/unauthenticated-read.gelly",
+          },
+        },
+      },
     },
     "Developer Role": {
       storageKey: "mo0lEkLsl1IG",

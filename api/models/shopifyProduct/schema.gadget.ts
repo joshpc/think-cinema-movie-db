@@ -21,7 +21,6 @@ export const schema: GadgetModel = {
         metafieldType: "single_line_text_field",
         allowMultipleEntries: false,
       },
-      validations: { required: true },
       storageKey: "s0kocNdE7J9w",
     },
   },

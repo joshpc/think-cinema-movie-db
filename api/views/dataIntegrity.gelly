@@ -1,6 +1,5 @@
 view {
   movies {
-    id,
     oldDatabaseId,
     count(actors),
     count(credits)

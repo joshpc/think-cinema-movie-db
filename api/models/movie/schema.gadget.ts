@@ -9,7 +9,7 @@ export const schema: GadgetModel = {
   fields: {
     actors: {
       type: "hasManyThrough",
-      sibling: { model: "person", relatedField: "acting_roles" },
+      sibling: { model: "person", relatedField: "movies_roles" },
       join: {
         model: "actor",
         belongsToSelfField: "movie",
@@ -19,7 +19,7 @@ export const schema: GadgetModel = {
     },
     credits: {
       type: "hasManyThrough",
-      sibling: { model: "person", relatedField: "credited_roles" },
+      sibling: { model: "person", relatedField: "movies_credits" },
       join: {
         model: "credit",
         belongsToSelfField: "movie",

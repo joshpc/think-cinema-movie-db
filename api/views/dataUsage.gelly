@@ -1,0 +1,7 @@
+view {
+  count(movies)
+  count(actors)
+  count(people)
+  count(credits)
+  count(shopifyProducts)
+}
