@@ -36,18 +36,9 @@ const Unauthenticated = () => {
       <div style={{ height: "80px" }}>
         <Card padding="500">
           <Text variant="headingLg" as="h1">
-            This is a placeholder. Here, you'll be able to upload your movie collection (or at least edit your actors/credits)
+            Think Cinema Movie Database
           </Text>
-          {/* <Box paddingBlockStart="200">
-            <Text variant="bodyLg" as="p">
-              Edit this page:{" "}
-              <a
-                href={`/edit/${gadgetConfig.environment}/files/web/routes/_app.tsx`}
-              >
-                web/routes/_app.tsx
-              </a>
-            </Text>
-          </Box> */}
+          <Text>Authenticated requests only.</Text>
         </Card>
       </div>
     </Page>
