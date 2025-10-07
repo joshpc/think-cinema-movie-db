@@ -36,9 +36,9 @@ const Unauthenticated = () => {
       <div style={{ height: "80px" }}>
         <Card padding="500">
           <Text variant="headingLg" as="h1">
-            App must be viewed in the Shopify Admin
+            This is a placeholder. Here, you'll be able to upload your movie collection (or at least edit your actors/credits)
           </Text>
-          <Box paddingBlockStart="200">
+          {/* <Box paddingBlockStart="200">
             <Text variant="bodyLg" as="p">
               Edit this page:{" "}
               <a
@@ -47,7 +47,7 @@ const Unauthenticated = () => {
                 web/routes/_app.tsx
               </a>
             </Text>
-          </Box>
+          </Box> */}
         </Card>
       </div>
     </Page>

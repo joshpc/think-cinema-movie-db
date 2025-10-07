@@ -16,6 +16,6 @@ compliance_topics = [ "customers/data_request", "customers/redact" ,"shop/redact
 uri = "https://tc-movie-db.gadget.app/api/webhooks/shopify"
 
 [app_proxy]
-url = "https://tc-movie-db--development.gadget.app/api/graphql"
-subpath = "query"
-prefix = "cast"
+url = "https://tc-movie-db.gadget.app/api/graphql"
+subpath = "tcmoviedb"
+prefix = "apps"
