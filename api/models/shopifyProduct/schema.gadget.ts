@@ -23,6 +23,29 @@ export const schema: GadgetModel = {
       },
       storageKey: "s0kocNdE7J9w",
     },
+    productionYear: {
+      type: "string",
+      shopifyMetafield: {
+        privateMetafield: false,
+        namespace: "think_cinema_movies",
+        key: "production_year",
+        metafieldType: "single_line_text_field",
+        allowMultipleEntries: false,
+      },
+      storageKey: "yEBq-7zSmgQj",
+    },
+    released: {
+      type: "dateTime",
+      shopifyMetafield: {
+        privateMetafield: false,
+        namespace: "think_cinema_movies",
+        key: "released",
+        metafieldType: "date",
+        allowMultipleEntries: false,
+      },
+      includeTime: false,
+      storageKey: "q7M9dliuVaUI",
+    },
   },
   shopify: {
     fields: [

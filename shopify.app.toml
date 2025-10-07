@@ -17,5 +17,5 @@ uri = "https://tc-movie-db.gadget.app/api/webhooks/shopify"
 
 [app_proxy]
 url = "https://tc-movie-db--development.gadget.app/api/graphql"
-subpath = "tc-movie-db-api"
-prefix = "apps"
+subpath = "query"
+prefix = "cast"
