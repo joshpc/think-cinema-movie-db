@@ -38,7 +38,7 @@ const Unauthenticated = () => {
           <Text variant="headingLg" as="h1">
             Think Cinema Movie Database
           </Text>
-          <Text>Authenticated requests only.</Text>
+          <Text>Authenticated requests only.s </Text>
         </Card>
       </div>
     </Page>
